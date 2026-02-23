@@ -267,6 +267,7 @@ footer a:hover, footer a:focus {
 }
 
 /* Responsive adjustments */
+/* Responsive adjustments */
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 2rem;
@@ -279,12 +280,34 @@ footer a:hover, footer a:focus {
     align-items: flex-start;
     gap: 0.25rem;
   }
+} /* ✅ CLOSES the 600px media query */
+
+/* Highlight word in hero headline */
 .hero-highlight {
-    font-size: 1.2em;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    color: #f2d5a4;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #f2d5a4;
 }
+
+/* Generic button style (your HTML uses class="btn") */
+.btn{
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 0.65rem 1.1rem;
+  border-radius: 6px;
+  font-family: var(--heading-font);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.btn:hover, .btn:focus{
+  background-color: var(--accent-color);
+  text-decoration: none;
+}
+
 /* Home quick links grid */
 .quick-links{
   display: grid;
@@ -300,7 +323,7 @@ footer a:hover, footer a:focus {
   border: 1px solid rgba(0,0,0,0.08);
   border-radius: 14px;
   padding: 22px 22px 18px;
-box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.06);
 }
 
 .quick-card h3{
@@ -318,7 +341,6 @@ box-shadow: 0 8px 18px rgba(0,0,0,0.06);
   }
 
   .quick-card .btn{
-  display: inline-block;
-  margin-top: 6px;
-}
+    margin-top: 6px;
+  }
 }
