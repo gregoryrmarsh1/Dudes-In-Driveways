@@ -349,19 +349,19 @@ footer a:hover, footer a:focus {
    ========================= */
 
 .start-page{
-  padding-top: 2.5rem;
-  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .start-intro{
   max-width: 900px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.25rem;
   font-size: 1.05rem;
 }
 
 .start-section{
   max-width: 900px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.25rem;
   background: rgba(255,255,255,0.35);
   border: 1px solid rgba(0,0,0,0.08);
   border-radius: 14px;
