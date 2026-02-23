@@ -316,4 +316,8 @@ box-shadow: 0 8px 18px rgba(0,0,0,0.06);
   .quick-links{
     grid-template-columns: 1fr;
   }
+
+  .quick-card .btn{
+  display: inline-block;
+  margin-top: 6px;
 }
