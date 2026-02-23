@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Events | Dudes in Driveways</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-wrapper">
+      <a class="logo" href="index.html">
+        <img src="images/dudes_shield.png" alt="Dudes in Driveways shield logo">
+        <span>Dudes in Driveways</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="past-events.html">Past Events</a></li>
+          <li><a href="chat.html">Chat</a></li>
+          <li><a href="start-event.html">Start Your Own</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Upcoming Events</h2>
+      </div>
+      <p>Below you’ll find our community calendar embedded directly from Google Calendar. To keep it current, update your public Google Calendar and adjust the embed code with your calendar’s ID. Google provides step‑by‑step instructions for generating the embed code for your own calendar.</p>
+      <div style="overflow-x:auto;">
+        <!-- Replace the src URL below with your public Google Calendar embed link -->
+        <iframe src="https://calendar.google.com/calendar/embed?src=your_public_calendar_id&ctz=America/New_York"
+                style="border: 0" width="100%" height="600" frameborder="0" scrolling="no" allowfullscreen>
+        </iframe>
+      </div>
+      <p style="margin-top:1rem; font-size:0.9rem; color:#555;">Tip: To embed your calendar, open Google Calendar, select the calendar under <em>Settings &amp; sharing</em>, copy the provided embed code and replace <code>your_public_calendar_id</code> above with your calendar ID【889357911330957†L24-L45】.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="current-year"></span> Dudes in Driveways. All rights reserved.</p>
+    <p>Website created by community volunteers.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

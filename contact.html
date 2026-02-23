@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Dudes in Driveways</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-wrapper">
+      <a class="logo" href="index.html">
+        <img src="images/dudes_shield.png" alt="Dudes in Driveways shield logo">
+        <span>Dudes in Driveways</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="past-events.html">Past Events</a></li>
+          <li><a href="chat.html">Chat</a></li>
+          <li><a href="start-event.html">Start Your Own</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact Us</h2>
+      </div>
+      <p>If you have questions, feedback or would like to get involved, please reach out using the form below or via our chat. We’ll respond as soon as we can.</p>
+      <form action="mailto:dudesindriveways@example.com" method="post" enctype="text/plain" style="max-width:600px; margin:2rem auto;">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required style="width:100%; padding:0.5rem; margin-bottom:1rem; border:1px solid #ccc; border-radius:4px;">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required style="width:100%; padding:0.5rem; margin-bottom:1rem; border:1px solid #ccc; border-radius:4px;">
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="5" required style="width:100%; padding:0.5rem; margin-bottom:1rem; border:1px solid #ccc; border-radius:4px;"></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+      <p style="font-size:0.9rem; color:#555;">Note: This form uses your email client to send messages. Alternatively, you can reach us through the chat page.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="current-year"></span> Dudes in Driveways. All rights reserved.</p>
+    <p>Website created by community volunteers.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
