@@ -344,3 +344,89 @@ footer a:hover, footer a:focus {
     margin-top: 6px;
   }
 }
+/* =========================
+   Start Your Own page styles
+   ========================= */
+
+.start-page{
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.start-intro{
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+}
+
+.start-section{
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  background: rgba(255,255,255,0.35);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 14px;
+  padding: 1.5rem 1.5rem 1.1rem;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.05);
+}
+
+.start-section h3{
+  margin-bottom: 0.75rem;
+}
+
+.start-list{
+  margin: 0.75rem 0 1rem 1.2rem;
+}
+
+.start-list li{
+  margin: 0.35rem 0;
+}
+
+.start-quote{
+  margin: 1rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 5px solid rgba(0,0,0,0.18);
+  background: rgba(255,255,255,0.4);
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.start-rule{
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.start-rule h3{
+  color: var(--secondary-color);
+}
+
+.start-rule p{
+  margin-bottom: 0.75rem;
+}
+
+.rule-line{
+  font-size: 1.25rem;
+}
+
+.rule-big{
+  font-size: 1.6rem;
+  letter-spacing: 0.02em;
+}
+
+.start-cta{
+  margin-top: 1.25rem;
+}
+
+.start-rule .btn{
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+.start-rule .btn:hover,
+.start-rule .btn:focus{
+  background: rgba(255,255,255,0.25);
+}
