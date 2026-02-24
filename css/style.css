@@ -438,3 +438,45 @@ footer a:hover, footer a:focus {
 .quote-inline{
   font-weight: 600;
 }
+.event-hero {
+  padding: 4rem 0 2rem;
+  text-align: center;
+}
+
+.event-label {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.event-date {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.event-tagline {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.event-details {
+  padding: 2rem 0 4rem;
+}
+
+.event-details h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.event-list {
+  margin-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.event-note {
+  font-style: italic;
+  opacity: 0.8;
+}
