@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Upcoming Events | Dudes in Driveways</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Dudes in Driveways | Events</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+  <!-- Header & Navigation (keep your existing header if you already have one) -->
   <header>
     <div class="container nav-wrapper">
       <a class="logo" href="index.html">
@@ -27,73 +30,90 @@
     </div>
   </header>
 
- <section class="event-hero">
-  <div class="container">
+  <!-- Monthly Spotlight -->
+  <section class="event-hero" style="--event-hero-image:url('../images/odins-airsoft-shamrock.png');">
+    <div class="event-hero__overlay"></div>
 
-    <p class="event-label">Upcoming Event</p>
+    <div class="event-hero__content">
+      <div class="event-hero__kicker">Upcoming Event</div>
 
-    <h1>Odin’s Paradise – Tactical Airsoft Night</h1>
+      <h1 class="event-hero__title">Odin’s Airsoft &amp; Shamrock</h1>
+      <p class="event-hero__meta">
+        Sunday, March 15, 2026 · Norwalk, Ohio
+      </p>
 
-    <p class="event-date">
-      March 15, 2026 · 6:30 PM · Odin’s Paradise Indoor Airsoft Arena
-    </p>
+      <div class="event-hero__cta">
+        <a class="btn" href="contact.html">I’m In</a>
+        <a class="btn btn--ghost" href="https://www.odinsparadise.com/" target="_blank" rel="noopener">Venue Info</a>
+      </div>
 
-    <p class="event-tagline">
-      Indoor airsoft. Team strategy. Controlled chaos.
-      Show up ready to move and leave with stories.
-    </p>
+      <p class="event-hero__blurb">
+        Indoor airsoft. Team strategy. Controlled chaos. Show up ready to move and leave with stories.
+      </p>
+    </div>
+  </section>
 
-  </div>
-</section>
-<section class="event-details">
-  <div class="container">
+  <main class="container">
+    <section class="event-body">
 
-    <h2>What It Is</h2>
-    <p>
-      This month we’re trading the driveway for controlled chaos.
-    </p>
-    <p>
-      Odin’s Paradise gives us a chance to compete, move, strategize,
-      and test our coordination in a fast-paced indoor airsoft arena.
-      It’s less about “winning” and more about stepping outside our
-      comfort zone together.
-    </p>
-    <p>
-      Expect teamwork. Expect laughs. Expect to learn who takes this way too seriously.
-    </p>
+      <div class="event-grid">
+        <div class="event-card">
+          <h2>The Plan</h2>
+          <p>
+            March Dudes Day is going active.
+            We’re heading to Odin’s Paradise for an all-day indoor airsoft run.
+            Huge field. Big weekend turnout. Fast-paced games.
+          </p>
+          <p>
+            Plan is to arrive around <strong>9:00 AM</strong> to handle waivers and rentals.
+            First games usually kick off around <strong>10:00 AM</strong>.
+            Come for the whole day or jump in for part of it.
+          </p>
+        </div>
 
-    <h2>Why This One Matters</h2>
-    <p>
-      Every season looks different.
-      Some months are reflective.
-      Some months are relaxed.
-      This one is active.
-    </p>
-    <p>
-      Part of building camaraderie is doing something that pushes you
-      just enough to feel it the next day.
-    </p>
+        <div class="event-card">
+          <h2>Quick Details</h2>
+          <ul class="event-list">
+            <li><strong>Date:</strong> Sunday, March 15, 2026</li>
+            <li><strong>Where:</strong> Odin’s Paradise (Norwalk, OH)</li>
+            <li><strong>Arrive:</strong> 9:00 AM (waivers + rentals)</li>
+            <li><strong>Games:</strong> ~10:00 AM start</li>
+          </ul>
+        </div>
 
-    <h2>What to Bring</h2>
-    <ul class="event-list">
-      <li>Comfortable clothes you can move in</li>
-      <li>Closed-toe shoes</li>
-      <li>Competitive spirit (optional but encouraged)</li>
-      <li>A willingness to try something different</li>
-    </ul>
+        <div class="event-card">
+          <h2>Cost &amp; Gear</h2>
+          <ul class="event-list">
+            <li>Around <strong>$25</strong> to play</li>
+            <li>Rentals available if you don’t have gear</li>
+            <li>If you do have your own setup — bring it</li>
+            <li>Wear comfortable clothes + closed-toe shoes</li>
+          </ul>
+          <p class="event-note">Safety briefing provided on-site.</p>
+        </div>
 
-    <p class="event-note">
-      Equipment and safety briefing provided on-site.
-    </p>
+        <div class="event-card">
+          <h2>Dudes + Kids</h2>
+          <p>
+            Kids are welcome. Minors need a signed waiver
+            (ages 10–12 require a parent present).
+            This one can be multi-generational if you want it to be.
+          </p>
+        </div>
 
-    <h2>Afterward</h2>
-    <p>
-      We’ll grab food nearby and debrief — because half the stories
-      come after the event.
-    </p>
+        <div class="event-card event-card--full">
+          <h2>Lunch &amp; Aftermath</h2>
+          <p>
+            Bring a cooler or lunch for the day.
+            Late afternoon, we’ll roll over to <strong>Red Shamrock</strong> in Norwalk for dinner and the debrief —
+            because the stories are usually better than the scores.
+          </p>
+        </div>
+      </div>
 
-  </div>
-</section>
+    </section>
+  </main>
+
   <footer>
     <p>&copy; <span id="current-year"></span> Dudes in Driveways. All rights reserved.</p>
     <p>Website created by community volunteers.</p>
