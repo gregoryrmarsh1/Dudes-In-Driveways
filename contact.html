@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us | Dudes in Driveways</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dudes in Driveways | Contact</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+  <!-- Header & Navigation -->
   <header>
     <div class="container nav-wrapper">
       <a class="logo" href="index.html">
@@ -27,30 +34,43 @@
     </div>
   </header>
 
-  <section>
-    <div class="container">
-      <div class="section-header">
-        <h2>Contact Us</h2>
-      </div>
-      <p>If you have questions, feedback or would like to get involved, please reach out using the form below or via our chat. We’ll respond as soon as we can.</p>
-      <form action="mailto:dudesindriveways@gmail.com" method="post" enctype="text/plain" style="max-width:600px; margin:2rem auto;">
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="name" required style="width:100%; padding:0.5rem; margin-bottom:1rem; border:1px solid #ccc; border-radius:4px;">
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" required style="width:100%; padding:0.5rem; margin-bottom:1rem; border:1px solid #ccc; border-radius:4px;">
-        <label for="message">Message</label><br>
-        <textarea id="message" name="message" rows="5" required style="width:100%; padding:0.5rem; margin-bottom:1rem; border:1px solid #ccc; border-radius:4px;"></textarea>
-        <button type="submit" class="btn-primary">Send Message</button>
-      </form>
-      <p style="font-size:0.9rem; color:#555;">Note: This form uses your email client to send messages. Alternatively, you can reach us through the chat page.</p>
-    </div>
-  </section>
+  <!-- Contact Content -->
+  <main class="container contact-page">
 
+    <div class="section-header">
+      <h2>Contact</h2>
+    </div>
+
+    <p class="contact-lead">
+      Questions? Ideas? Something worth talking about?
+    </p>
+
+    <p>
+      We keep things simple around here. If you’ve got a thought, collaboration idea,
+      or just want to reach out — send it our way.
+    </p>
+
+    <div class="contact-cta">
+      <a class="btn" href="https://forms.gle/h8jjieF2nzuUYHQU8" target="_blank">
+        Send a Message
+      </a>
+    </div>
+
+    <p class="contact-email">
+      Or email directly:
+      <strong>dudesindriveways@gmail.com</strong>
+    </p>
+
+  </main>
+
+  <!-- Footer -->
   <footer>
     <p>&copy; <span id="current-year"></span> Dudes in Driveways. All rights reserved.</p>
     <p>Website created by community volunteers.</p>
   </footer>
 
+  <!-- JavaScript -->
   <script src="js/main.js"></script>
+
 </body>
 </html>
