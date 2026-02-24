@@ -430,3 +430,11 @@ footer a:hover, footer a:focus {
 .start-rule .btn:focus{
   background: rgba(255,255,255,0.25);
 }
+.start-intro .lead{
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.quote-inline{
+  font-weight: 600;
+}
