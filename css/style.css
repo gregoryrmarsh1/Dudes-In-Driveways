@@ -654,6 +654,8 @@ footer a:hover, footer a:focus {
   background: none;
   border: none;
   cursor: pointer;
+  position: relative;
+  z-index: 1101;
 }
 
 .nav-toggle span {
@@ -663,6 +665,11 @@ footer a:hover, footer a:focus {
   background: #111;
   margin: 5px 0;
   border-radius: 2px;
+}
+
+.nav-wrapper {
+  position: relative;
+  z-index: 1100;
 }
 
 /* Mobile */
@@ -681,6 +688,7 @@ footer a:hover, footer a:focus {
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     padding: 10px 0;
+    z-index: 1100;
   }
 
   .site-nav.open {
