@@ -705,14 +705,6 @@ footer a:hover, footer a:focus {
   }
 }
 
-.event-link-card {
-  display: contents;
-}
-
-.event-link-card:hover,
-.event-link-card:focus {
-  text-decoration: none;
-}
 .photo-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
