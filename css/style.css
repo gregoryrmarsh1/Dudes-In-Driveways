@@ -510,6 +510,7 @@ footer a:hover, footer a:focus {
   width: 90%;
   max-width: 900px;
   padding: 3rem 1.25rem;
+  transform: translateY(-30px);
 }
 
 .event-hero__kicker{
