@@ -733,7 +733,7 @@ footer a:hover, footer a:focus {
 .event-link-card .card::after {
   content: "View Photos →";
   display: block;
-  margin-top: 1rem;
+  padding: 0 1rem 1rem;
   font-size: 0.85rem;
   font-weight: 600;
   color: #6b5d46;
