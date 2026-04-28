@@ -727,3 +727,26 @@ footer a:hover, footer a:focus {
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
+.event-link-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.event-link-card .card {
+  border: 2px solid #b8a98a;
+  position: relative;
+}
+
+.event-link-card .card::after {
+  content: "View Photos →";
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6b5d46;
+}
+
+.event-link-card .card:hover {
+  border-color: #8a7758;
+}
