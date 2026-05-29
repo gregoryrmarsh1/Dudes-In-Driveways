@@ -1,15 +1,82 @@
-<h1>Caves, Trains &amp; Twin Lakes</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caves, Trains & Twin Lakes Photos | Dudes in Driveways</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-<p>
-  Some events go exactly according to plan. This wasn't one of them.
-</p>
+<body>
+<header>
+  <div class="container nav-wrapper">
+    <a class="logo" href="index.html">
+      <img src="images/dudes_shield.png" alt="Dudes in Driveways shield logo">
+      <span>Dudes in Driveways</span>
+    </a>
 
-<p>
-  We started underground at Seneca Caverns, spent time exploring the
-  Mad River &amp; NKP Railroad Museum, and when our original dinner stop
-  turned out to be closed, we improvised and headed to Twin Lakes Golf Course instead.
-</p>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
-<p>
-  As usual, the destination mattered less than the company.
-</p>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="past-events.html">Past Events</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="start-event.html">Start Your Own</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section-header">
+      <h2>Caves, Trains &amp; Twin Lakes</h2>
+      <p style="max-width: 820px; margin: 0.75rem auto 0; color:#555;">
+        May 17, 2026 · Underground caverns, railroad history, and an improvised stop at Twin Lakes.
+      </p>
+    </div>
+
+    <div style="max-width: 820px; margin: 0 auto 2rem; text-align:center; color:#555;">
+      <p>
+        Some events go exactly according to plan. This wasn't one of them.
+      </p>
+
+      <p>
+        We started underground at Seneca Caverns, spent time exploring the
+        Mad River &amp; NKP Railroad Museum, and when our original dinner stop
+        turned out to be closed, we improvised and headed to Twin Lakes Golf Course instead.
+      </p>
+
+      <p>
+        As usual, the destination mattered less than the company.
+      </p>
+    </div>
+
+    <div class="photo-gallery">
+      <img src="images/Seneca1.jpg" alt="Caves, Trains and Twin Lakes photo 1">
+      <img src="images/Seneca2.jpg" alt="Caves, Trains and Twin Lakes photo 2">
+      <img src="images/Seneca3.jpg" alt="Caves, Trains and Twin Lakes photo 3">
+    </div>
+
+    <p style="text-align:center; margin-top: 2rem;">
+      <a href="past-events.html" class="btn">Back to Past Events</a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; <span id="current-year"></span> Dudes in Driveways. All rights reserved.</p>
+  <p>Website created by community volunteers.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
