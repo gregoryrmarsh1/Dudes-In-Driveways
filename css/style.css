@@ -743,3 +743,10 @@ footer a:hover, footer a:focus {
 .event-link-card .card:hover {
   border-color: #8a7758;
 }
+@media (max-width: 768px) {
+
+  .event-hero {
+    background-position: 38% center;
+  }
+
+}
