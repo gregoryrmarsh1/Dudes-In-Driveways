@@ -362,7 +362,16 @@ section:nth-of-type(even) {
   background-color: var(--primary-color);
 }
 
+/* Past Events mixed grid */
 
+.past-events-grid {
+  align-items: start;
+}
+
+.past-events-grid .archive-card {
+  width: 100%;
+  max-width: none;
+}
 /* =========================================================
    FOOTER
    ========================================================= */
