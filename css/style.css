@@ -798,6 +798,10 @@ footer a:focus {
    NEW PAST EVENTS - INTERACTIVE ARCHIVE
    ========================================================= */
 
+/* =========================================================
+   NEW PAST EVENTS - INTERACTIVE ARCHIVE
+   ========================================================= */
+
 .archive-events {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -810,6 +814,12 @@ footer a:focus {
   width: 100%;
   height: 430px;
   perspective: 1200px;
+}
+
+.past-events-grid .archive-card {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
 }
 
 .archive-card__inner {
@@ -892,6 +902,7 @@ footer a:focus {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 
@@ -958,9 +969,7 @@ footer a:focus {
   color: var(--primary-color);
   text-decoration: underline;
 }
-.past-events-grid .archive-card {
-  min-width: 0;
-}
+
 
 /* =========================================================
    ARCHIVE AFTERMATH PHOTO COLLAGE
@@ -1031,39 +1040,48 @@ footer a:focus {
 
 }
 
+
 @media (max-width: 600px) {
 
   .archive-card {
     width: 100%;
     max-width: none;
-    height: 600px;
+    height: 450px;
     margin: 0;
   }
-.archive-card__image {
-  height: 175px;
-}
 
-.archive-card__image img {
-  object-fit: cover;
-  object-position: center;
-}
+  .archive-card__image {
+    height: 175px;
+  }
+
+  .archive-card__image img {
+    object-fit: cover;
+    object-position: center;
+  }
 
   .archive-photo-grid {
-    grid-template-rows: 125px 185px;
-    height: 313px;
+    grid-template-rows: 110px 150px;
+    height: 263px;
   }
 
   .archive-card__body {
-    padding: 1.25rem;
+    padding: 1rem 1.1rem;
   }
 
   .archive-card__back .archive-card__body {
-    padding: 1rem 1.25rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .archive-card__back .archive-card__body h3 {
+    font-size: 0.82rem;
+  }
+
+  .archive-card__back .archive-card__body p {
+    font-size: 0.68rem;
+    line-height: 1.3;
   }
 
 }
-
-
 /* =========================================================
    GENERAL SMALL-SCREEN ADJUSTMENTS
    ========================================================= */
