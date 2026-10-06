@@ -32,3 +32,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+// Past Events flip cards
+document.querySelectorAll('.archive-card').forEach((card) => {
+
+  const flipButtons = card.querySelectorAll('.archive-card__flip');
+
+  flipButtons.forEach((button) => {
+
+    button.addEventListener('click', () => {
+      card.classList.toggle('is-flipped');
+    });
+
+  });
+
+});
