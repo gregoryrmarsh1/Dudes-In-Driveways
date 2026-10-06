@@ -1039,10 +1039,14 @@ footer a:focus {
     height: 600px;
     margin: 0;
   }
+.archive-card__image {
+  height: 175px;
+}
 
-  .archive-card__image {
-    height: 220px;
-  }
+.archive-card__image img {
+  object-fit: cover;
+  object-position: center;
+}
 
   .archive-photo-grid {
     grid-template-rows: 125px 185px;
