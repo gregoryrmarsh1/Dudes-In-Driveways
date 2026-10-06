@@ -808,7 +808,6 @@ footer a:focus {
 
 .archive-card {
   width: 100%;
-  max-width: 380px;
   height: 430px;
   perspective: 1200px;
 }
@@ -959,7 +958,9 @@ footer a:focus {
   color: var(--primary-color);
   text-decoration: underline;
 }
-
+.past-events-grid .archive-card {
+  min-width: 0;
+}
 
 /* =========================================================
    ARCHIVE AFTERMATH PHOTO COLLAGE
@@ -1032,24 +1033,30 @@ footer a:focus {
 
 @media (max-width: 600px) {
 
-  .archive-events {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 600px) {
 
   .archive-card {
     width: 100%;
-    max-width: 420px;
-    height: 440px;
-    margin: 0 auto;
+    max-width: none;
+    height: 600px;
+    margin: 0;
   }
 
   .archive-card__image {
-    height: 185px;
+    height: 300px;
   }
 
   .archive-photo-grid {
-    grid-template-rows: 120px 140px;
-    height: 263px;
+    grid-template-rows: 150px 220px;
+    height: 373px;
+  }
+
+  .archive-card__body {
+    padding: 1.25rem;
+  }
+
+  .archive-card__back .archive-card__body {
+    padding: 1rem 1.25rem;
   }
 
 }
