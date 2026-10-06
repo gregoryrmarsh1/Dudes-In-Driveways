@@ -748,7 +748,18 @@ footer a:hover, footer a:focus {
   .event-hero {
     background-position: 38% center;
   }
+/* Interactive Past Event Archive */
 
+.archive-events {
+  width: 100%;
+  max-width: 900px;
+  margin: 1rem auto 2.5rem;
+  display: block;
+}
+
+.archive-events .archive-card {
+  width: 100%;
+}
 }
 /* =========================================================
    PAST EVENTS - FLIP ARCHIVE CARDS
