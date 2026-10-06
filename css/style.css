@@ -1041,12 +1041,12 @@ footer a:focus {
   }
 
   .archive-card__image {
-    height: 300px;
+    height: 220px;
   }
 
   .archive-photo-grid {
-    grid-template-rows: 150px 220px;
-    height: 373px;
+    grid-template-rows: 125px 185px;
+    height: 313px;
   }
 
   .archive-card__body {
