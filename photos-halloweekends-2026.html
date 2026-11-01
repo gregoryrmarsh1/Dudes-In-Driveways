@@ -1,1 +1,326 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HalloWeekends 2026 Photos | Dudes in Driveways</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .halloweekends-recap {
+      max-width: 850px;
+      margin: 1.5rem auto 2.5rem;
+      line-height: 1.8;
+    }
+
+    .halloweekends-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0 3rem;
+    }
+
+    .halloweekends-photo {
+      margin: 0;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .halloweekends-photo img {
+      display: block;
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .halloweekends-photo figcaption {
+      padding: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .halloweekends-back {
+      margin: 2rem 0;
+    }
+
+    @media (max-width: 600px) {
+      .halloweekends-gallery {
+        grid-template-columns: 1fr;
+      }
+
+      .halloweekends-photo img {
+        height: auto;
+        max-height: 500px;
+        object-fit: contain;
+        background: #111;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ==================== HEADER ==================== -->
+
+<header>
+  <div class="container nav-wrapper">
+
+    <a class="logo" href="index.html">
+      <img
+        src="images/dudes_shield.png"
+        alt="Dudes in Driveways shield logo"
+      >
+      <span>Dudes in Driveways</span>
+    </a>
+
+    <button
+      class="nav-toggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="past-events.html">Past Events</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="start-event.html">Start Your Own</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- ==================== MAIN CONTENT ==================== -->
+
+<main
+  class="container"
+  style="padding-top:2rem; padding-bottom:3rem;"
+>
+
+  <div class="section-header">
+
+    <h1>HalloWeekends: Dudes After Dark</h1>
+
+    <p>October 22, 2026 · Cedar Point</p>
+
+  </div>
+
+
+  <!-- ==================== EVENT RECAP ==================== -->
+
+  <div class="halloweekends-recap">
+
+    <h2>Three Coasters. One Legendary Night.</h2>
+
+    <p>
+      The Dudes returned to Cedar Point for another
+      HalloWeekends adventure, and this year
+      we went big!
+    </p>
+
+    <p>
+      Armed with Fast Lane passes, we tackled
+      <strong>Steel Vengeance, Maverick, and
+      Top Thrill 2!</strong>
+      For several of the Dudes, this was their
+      first time experiencing Top Thrill 2.
+    </p>
+
+    <p>
+      Between the roller coasters came Halloween fog,
+      a couple rounds of adult beverages,
+      questionable conversations, and plenty of laughs.
+    </p>
+
+    <p>
+      We wrapped up the evening in the rocking chairs,
+      doing a little people-watching before breaking
+      with tradition and trading our annual corn dogs
+      for <strong>Gargoyle Wings!</strong>
+    </p>
+
+    <p>
+      Three major coasters. A few first-time thrills.
+      Plenty of laughs.
+      <strong>Another successful Dudes mission!</strong>
+    </p>
+
+    <p class="halloweekends-back">
+      <a href="past-events.html">
+        ← Back to Past Events
+      </a>
+    </p>
+
+  </div>
+
+
+  <!-- ==================== PHOTO GALLERY ==================== -->
+
+  <div class="halloweekends-gallery">
+
+    <!-- PHOTO 1 -->
+
+    <figure class="halloweekends-photo">
+      <img
+        src="images/halloweekends-2026-entrance.jpg"
+        alt="Matt and Greg at Cedar Point"
+        loading="lazy"
+      >
+
+      <figcaption>
+        Matt and Greg kicking off another
+        HalloWeekends adventure.
+      </figcaption>
+    </figure>
+
+
+    <!-- PHOTO 2 -->
+
+    <figure class="halloweekends-photo">
+      <img
+        src="images/halloweekends-2026-steel-vengeance.jpg"
+        alt="The Dudes walking toward Steel Vengeance"
+        loading="lazy"
+      >
+
+      <figcaption>
+        The Dudes head toward Steel Vengeance.
+        First major coaster of the night!
+      </figcaption>
+    </figure>
+
+
+    <!-- PHOTO 3 -->
+
+    <figure class="halloweekends-photo">
+      <img
+        src="images/halloweekends-2026-first-round.jpg"
+        alt="The Dudes enjoying their first round of drinks"
+        loading="lazy"
+      >
+
+      <figcaption>
+        First round of adult beverages.
+        So far, so good.
+      </figcaption>
+    </figure>
+
+
+    <!-- PHOTO 4 -->
+
+    <figure class="halloweekends-photo">
+      <img
+        src="images/halloweekends-2026-group.jpg"
+        alt="The Dudes together during their second round"
+        loading="lazy"
+      >
+
+      <figcaption>
+        Second round. The Dudes are
+        clearly enjoying themselves.
+      </figcaption>
+    </figure>
+
+
+    <!-- PHOTO 5 -->
+
+    <figure class="halloweekends-photo">
+      <img
+        src="images/halloweekends-2026-maverick-line.jpg"
+        alt="The Dudes waiting to ride Maverick"
+        loading="lazy"
+      >
+
+      <figcaption>
+        Fast Lane passes and the
+        Maverick adventure.
+      </figcaption>
+    </figure>
+
+
+    <!-- PHOTO 6 -->
+
+    <figure class="halloweekends-photo">
+      <img
+        src="images/halloweekends-2026-maverick-queue.jpg"
+        alt="The Dudes in the Maverick queue"
+        loading="lazy"
+      >
+
+      <figcaption>
+        In the Maverick queue.
+        More waiting, more conversations,
+        and another coaster checked off.
+      </figcaption>
+    </figure>
+
+
+    <!-- PHOTO 7 -->
+
+    <figure class="halloweekends-photo">
+      <img
+        src="images/halloweekends-2026-rocking-chairs.jpg"
+        alt="The Dudes relaxing in rocking chairs"
+        loading="lazy"
+      >
+
+      <figcaption>
+        End-of-night rocking chairs and
+        people-watching before Gargoyle Wings.
+        Corn dogs will have to wait until next year!
+      </figcaption>
+    </figure>
+
+  </div>
+
+
+  <!-- ==================== RETURN LINK ==================== -->
+
+  <p class="halloweekends-back">
+    <a href="past-events.html">
+      ← Back to Past Events
+    </a>
+  </p>
+
+</main>
+
+
+<!-- ==================== FOOTER ==================== -->
+
+<footer>
+
+  <p>
+    &copy; <span id="current-year"></span>
+    Dudes in Driveways. All rights reserved.
+  </p>
+
+  <p>
+    Website created by community volunteers.
+  </p>
+
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
