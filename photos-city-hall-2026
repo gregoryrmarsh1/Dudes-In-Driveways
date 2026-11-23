@@ -1,1 +1,376 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Huron City Hall 2026 Photos | Dudes in Driveways</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .city-hall-recap {
+      max-width: 850px;
+      margin: 1.5rem auto 2.5rem;
+      line-height: 1.8;
+    }
+
+    .city-hall-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0 3rem;
+    }
+
+    .city-hall-photo {
+      margin: 0;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .city-hall-photo img {
+      display: block;
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+
+    .city-hall-photo figcaption {
+      padding: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .city-hall-back {
+      margin: 2rem 0;
+    }
+
+    @media (max-width: 600px) {
+      .city-hall-gallery {
+        grid-template-columns: 1fr;
+      }
+
+      .city-hall-photo img {
+        height: auto;
+        max-height: 500px;
+        object-fit: contain;
+        background: #111;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ==================== HEADER ==================== -->
+
+<header>
+  <div class="container nav-wrapper">
+
+    <a class="logo" href="index.html">
+      <img
+        src="images/dudes_shield.png"
+        alt="Dudes in Driveways shield logo"
+      >
+      <span>Dudes in Driveways</span>
+    </a>
+
+    <button
+      class="nav-toggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="past-events.html">Past Events</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="start-event.html">Start Your Own</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- ==================== MAIN CONTENT ==================== -->
+
+<main
+  class="container"
+  style="padding-top:2rem; padding-bottom:3rem;"
+>
+
+  <div class="section-header">
+
+    <h1>Behind the Scenes: Huron City Hall</h1>
+
+    <p>November 17, 2026 · Huron, Ohio</p>
+
+  </div>
+
+
+  <!-- ==================== EVENT RECAP ==================== -->
+
+  <div class="city-hall-recap">
+
+    <h2>From City Hall to the Holding Cell</h2>
+
+    <p>
+      For our November gathering, the Dudes traded
+      driveways for government buildings and got a
+      behind-the-scenes look at how the City of Huron
+      keeps things running.
+    </p>
+
+    <p>
+      Our host for the evening was City Manager
+      <strong>Stu Hamilton</strong>, who gave us a
+      firsthand look at the people, places, and
+      services that support our community.
+    </p>
+
+    <h3>First Stop: Council Chambers</h3>
+
+    <p>
+      We kicked things off in City Council Chambers,
+      where Stu introduced himself and explained how
+      the space serves double duty for both City
+      Council meetings and court proceedings.
+    </p>
+
+    <p>
+      That's when we discovered that one of our very
+      own Dudes had actually appeared before the
+      judge many years ago following a certain
+      childhood fireworks incident.
+    </p>
+
+    <p>
+      Apparently, some of us have a longer history
+      with City Hall than others.
+    </p>
+
+    <h3>Next Up: The People Behind the Bills</h3>
+
+    <p>
+      From there, we visited the finance and utilities
+      offices, where Stu explained the daily
+      interactions city employees have with residents.
+      Whether answering questions, resolving concerns,
+      or collecting overdue payments, these employees
+      demonstrate a level of patience that deserves
+      its own municipal award.
+    </p>
+
+    <h3>A Visit to the Police Department</h3>
+
+    <p>
+      Next, Sergeant Orzech welcomed us into the
+      Huron Police Department, walking us through
+      the facility and explaining what a typical
+      shift looks like, how officers serve the
+      community, and how the department operates.
+    </p>
+
+    <p>
+      We explored the holding cells, learned about
+      Flock camera technology and its benefits for
+      law enforcement, and even got an up-close
+      look at a police cruiser.
+    </p>
+
+    <p>
+      Naturally, we couldn't pass up the opportunity
+      for a few photos behind bars.
+    </p>
+
+    <p>
+      <strong>
+        For the record, everyone was released
+        without incident.
+      </strong>
+    </p>
+
+    <h3>The Fire Department</h3>
+
+    <p>
+      Our final official stop was the Huron Fire
+      Department. Although the firefighters were
+      out responding to a call, Stu stepped in
+      as our guide.
+    </p>
+
+    <p>
+      He showed us the fire apparatus, explained
+      the department's capabilities, and gave us
+      the opportunity to climb aboard the city's
+      newer ladder truck. We learned why equipment
+      like this is essential for protecting Huron's
+      homes, businesses, and growing community.
+    </p>
+
+    <h3>One Last Stop: The Old Fish House</h3>
+
+    <p>
+      As any respectable Dudes in Driveways
+      gathering should, the evening concluded
+      with some good conversation at
+      <strong>The Old Fish House</strong>,
+      just down the street.
+    </p>
+
+    <p>
+      Over drinks and stories, we reflected on
+      growing up in Huron, the adventures we had
+      as kids, and how different the city looks
+      now that we're adults.
+    </p>
+
+    <p>
+      There's something pretty special about seeing
+      your hometown from the other side of the
+      counter, the council bench, or even the
+      jail cell.
+    </p>
+
+    <h3>The Takeaway</h3>
+
+    <p>
+      What started as a tour turned into a genuine
+      appreciation for the people who keep Huron
+      running. From city administration and utility
+      services to police officers and firefighters,
+      it takes an entire community of dedicated
+      people to make a city work.
+    </p>
+
+    <p>
+      A huge thank-you to
+      <strong>
+        City Manager Stu Hamilton and Sergeant Orzech
+      </strong>
+      for their time, hospitality, and willingness
+      to show us what goes on behind the scenes.
+    </p>
+
+    <p>
+      And to our fellow Dude with the fireworks
+      history: we're glad your second visit to
+      City Hall went a little better than the first.
+    </p>
+
+    <p class="city-hall-back">
+      <a href="past-events.html">
+        ← Back to Past Events
+      </a>
+    </p>
+
+  </div>
+
+
+  <!-- ==================== PHOTO GALLERY ==================== -->
+
+  <div class="city-hall-gallery">
+
+    <!-- PHOTO 1 -->
+
+    <figure class="city-hall-photo">
+      <img
+        src="images/city-hall-2026-jail-cell.jpg"
+        alt="The Dudes posing behind bars at the Huron Police Department"
+        loading="lazy"
+      >
+
+      <figcaption>
+        <strong>Behind Bars!</strong>
+        A few of the Dudes found themselves
+        on the wrong side of the bars.
+        Fortunately, this time it was voluntary.
+      </figcaption>
+    </figure>
+
+
+    <!-- PHOTO 2 -->
+
+    <figure class="city-hall-photo">
+      <img
+        src="images/city-hall-2026-lineup.jpg"
+        alt="The Dudes posing in front of the police height chart"
+        loading="lazy"
+      >
+
+      <figcaption>
+        <strong>Huron's Most Wanted... for a Tour.</strong>
+        The Dudes line up for a group photo
+        inside the Police Department.
+      </figcaption>
+    </figure>
+
+
+    <!-- PHOTO 3 -->
+
+    <figure class="city-hall-photo">
+      <img
+        src="images/city-hall-2026-council-chambers.jpg"
+        alt="The Dudes with Stu Hamilton in Huron City Council Chambers"
+        loading="lazy"
+      >
+
+      <figcaption>
+        <strong>City Council, Dudes Edition.</strong>
+        The Dudes briefly consider a career
+        in local government.
+        Motion to adjourn to The Old Fish House?
+      </figcaption>
+    </figure>
+
+  </div>
+
+
+  <!-- ==================== RETURN LINK ==================== -->
+
+  <p class="city-hall-back">
+    <a href="past-events.html">
+      ← Back to Past Events
+    </a>
+  </p>
+
+</main>
+
+
+<!-- ==================== FOOTER ==================== -->
+
+<footer>
+
+  <p>
+    &copy; <span id="current-year"></span>
+    Dudes in Driveways. All rights reserved.
+  </p>
+
+  <p>
+    Website created by community volunteers.
+  </p>
+
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
